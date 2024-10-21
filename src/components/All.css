@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: hwb(41 0% 0%);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    position: fixed;
+    box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    width: 100%;
+    bottom: 0;
+}
+
+.main_note {
+    padding: 20px;
+    margin: 20px;
+}
+
+.main_note input {
+    border: none;
+    font-size: 20px;
+}
+
+.main_note textarea {
+    border: none;
+    font-size: 15px;
+}
+
+.main_note form {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.any {
+    padding: 20px;
+    box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_note button {
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: burlywood;
+    background-color: transparent;
+    padding: 10px 20px;
+    box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+.plus_sign {
+    height: 20px;
+}
+
+.delete {
+    margin: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    color: red; 
+}
+
+.file {
+    box-shadow: 0px -1px 7px 0px rgba(0, 0, 0, 0.3);
+    width: 200px; 
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start; 
+        
+}
+
+
+
+
+@media (max-width: 768px) {
+    .file {
+        width: 100%; 
+    }
+}
+
+
+
+.delete:hover {
+    color: darkred; 
+}
